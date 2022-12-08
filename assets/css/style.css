@@ -66,7 +66,6 @@ p {
     font-size: 30px;
     text-transform: uppercase;
     font-weight: 600;
-    letter-spacing: 2px;
 }
 .jumbotron p{
     font-size: 16px;
@@ -103,10 +102,48 @@ p {
 }
 .bio h3{
     text-transform: uppercase;
-    margin-bottom: 20px;
-    letter-spacing: 2px;
+    margin-bottom: 10px;
     font-weight: 600;
 }
 .my-img img{
     width: 85%;
+}
+
+/* Portfolio */
+.port-content{
+    background-color: var(--bg-color);
+    align-items: center;
+}
+
+.port-heading{
+    font-size: 25px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 40px 0 15px 0;
+}
+.port-heading{
+    text-align: center;
+}
+.projects{
+    padding: 0px 30px 30px 30px;
+}
+.card-container{
+    text-align: center;
+    margin: 10px 0 35px 0;
+}
+.card-body h5{
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.custom-button-port{
+    border: solid 1px;
+    border-radius: 5px;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    font-size: 16px;
+    background-color: var(--bg-color);
+    margin-top: 12px;
+    color: black;
+    text-align: center; 
+    align-items: center;
 }
