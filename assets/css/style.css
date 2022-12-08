@@ -147,3 +147,10 @@ p {
     text-align: center; 
     align-items: center;
 }
+.card{
+    border: 0.5px rgb(122, 122, 122) solid;
+    border-radius: 10px;
+}
+.card img{
+    border-radius: 10px 10px 0 0;
+}
