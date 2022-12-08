@@ -2,28 +2,30 @@
     --bg-color: rgb(238, 238, 238);
     --bg-yellow: rgb(246, 203, 78);
     --light-text-col: rgb(238, 238, 238);
-  }
-  *{
+}
+
+*{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-decoration: none;
     list-style: none;
-  }
+}
   
-  body {
+  
+body {
     min-height: 100vh;
     line-height: 1.5;
     background-color: var(--bg-color);
-  }
+}
 
 h1, h2, h3 , h4, h5, h6 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  }
-  p {
+}
+p {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  }
+}
 
 /* Navigation bar */
 .custom-nav{
@@ -50,9 +52,7 @@ h1, h2, h3 , h4, h5, h6 {
     width: 75px;
     margin-right: 15px;
 }  
-.navbar-collapse{
-    color: white;
-}
+
 
 /* Hero section - Jumbotron */
 .jumbotron{
@@ -81,3 +81,5 @@ h1, h2, h3 , h4, h5, h6 {
     height: 400px;
     margin-top: 28px;
 }
+
+/* About me */
