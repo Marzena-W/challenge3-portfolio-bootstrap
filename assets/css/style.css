@@ -29,7 +29,6 @@ h1, h2, h3 , h4, h5, h6 {
 .custom-nav{
     width: 100%;
     background-color: rgb(0, 0, 0) !important;
-    height: 50px;
     padding: 16px 32px;
 }
 .custom-nav a{
@@ -49,8 +48,11 @@ h1, h2, h3 , h4, h5, h6 {
 }
 .navbar-brand img{
     width: 75px;
-    padding: 15px;
+    margin-right: 15px;
 }  
+.navbar-collapse{
+    color: white;
+}
 
 /* Hero section - Jumbotron */
 .jumbotron{
@@ -68,11 +70,14 @@ h1, h2, h3 , h4, h5, h6 {
 .custom-button{
     border: solid 1px;
     border-radius: 5px;
-    padding: 10px;
-    width: 250px;
+    padding: 10px 15px;
     text-transform: uppercase;
     font-size: 16px;
     background-color: var(--bg-color);
     margin-top: 20px;
     color: black;
+}
+.jumbotron img{
+    height: 400px;
+    margin-top: 28px;
 }
