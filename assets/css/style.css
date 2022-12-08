@@ -90,11 +90,11 @@ p {
 /* About me */
 .content{
     background-color: rgb(149, 140, 246);
-    height: 400px;
     display: flex;
     align-items: center;
 }
 .about-sec{
+    padding: 25px;
     display: flex;
     align-items: center;
 }
@@ -109,5 +109,4 @@ p {
 }
 .my-img img{
     width: 85%;
-    margin-left: 30px;
 }
