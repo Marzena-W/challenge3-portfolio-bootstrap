@@ -47,6 +47,7 @@ p {
 .navbar-nav a{
     color: white !important;
     padding-left: 32px !important;
+    font-size: 18px;
 }
 .navbar-brand img{
     width: 75px;
@@ -63,6 +64,9 @@ p {
 }
 .jumbotron h1{
     font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
 }
 .jumbotron p{
     font-size: 16px;
@@ -74,7 +78,7 @@ p {
     text-transform: uppercase;
     font-size: 16px;
     background-color: var(--bg-color);
-    margin-top: 20px;
+    margin-top: 12px;
     color: black;
 }
 .jumbotron img{
@@ -82,4 +86,28 @@ p {
     margin-top: 28px;
 }
 
+
 /* About me */
+.content{
+    background-color: rgb(149, 140, 246);
+    height: 400px;
+    display: flex;
+    align-items: center;
+}
+.about-sec{
+    display: flex;
+    align-items: center;
+}
+.bio{
+    color: white;
+}
+.bio h3{
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+.my-img img{
+    width: 85%;
+    margin-left: 30px;
+}
