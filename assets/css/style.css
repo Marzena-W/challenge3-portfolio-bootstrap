@@ -119,6 +119,7 @@ p {
 .port-content{
     background-color: var(--bg-color);
     text-align: center;
+    padding: 0 50px;
 }
 .port-heading{
     font-size: 25px;
@@ -160,27 +161,60 @@ p {
 
 /* Contact section */
 .contact-sec{
-    background-color: var(--bg-yellow);
-    text-align: center;
-    padding-top: 40px;
+    padding: 50px;
+    border-top: 1px solid black;
+}
+.contact-heading{
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+.para-contact{
+    font-size: 20px;
+}
+.contact-form{
+    background-color: black;
+    padding: 50px 26px;
 }
 .button-contact{
-    border: none;
-    padding: 10px 15px;
-    font-size: 16px;
     background-color: black;
-    margin-top: 12px;
-    color: white;
-    margin-bottom: 26px;
+    color: var(--light-text-col);
+    letter-spacing: 4px;
 }
-.contat-heading{
-    text-transform: uppercase;
-    font-size: 50px;
-    font-weight: 600;
-    padding: 0 300px;
-    line-height: 45px;
+.button-contact:hover{
+    background-color: var(--bg-yellow);
+    color: black;
+    stroke: 1px solid black;
 }
-.contact-sec img{
+
+
+
+
+
+
+
+
+/* icons section */
+.social-sec{
+    background-color: rgb(251, 157, 157);
+    text-align: center;
+    padding: 25px 0 40px 0;
+}
+.social-sec img{
     width: 60px;
-    margin-bottom: 25px;
+    margin-bottom: 15px;
+}
+.social-heading{
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+}
+
+
+
+/* copyright section */
+.copyright{
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 10px;
 }
