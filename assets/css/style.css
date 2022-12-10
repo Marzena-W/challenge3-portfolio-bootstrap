@@ -147,7 +147,7 @@ p {
     font-weight: 600;
 }
 .card{
-    border: 1px rgb(100, 24, 193) solid;
+    border: 1px rgb(137, 90, 199) solid;
     border-radius: 10px;
 }
 .card img{
@@ -166,7 +166,7 @@ p {
 }
 .contact-heading{
     font-weight: 600;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 .para-contact{
     font-size: 20px;
@@ -195,7 +195,7 @@ p {
 
 /* icons section */
 .social-sec{
-    background-color: rgb(251, 157, 157);
+    background-color: var(--bg-yellow);
     text-align: center;
     padding: 25px 0 40px 0;
 }
