@@ -86,7 +86,7 @@ div.jumbotron{
     color: black;
 }
 .jumbotron img{
-    height: 400px;
+    height: 350px;
     margin-bottom: 40px;
 }
 .custom-button:hover{
@@ -160,9 +160,15 @@ div.jumbotron{
     margin: 10px 0 35px 0;
     cursor: pointer !important;
 }
-.card-body h5{
+.card-title{
     text-transform: uppercase;
     font-weight: 600;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+.card-text{
+    font-size: 15px;
+
 }
 .card{
     border: 1px rgb(137, 90, 199) solid;
@@ -233,15 +239,41 @@ div.jumbotron{
 .prof-link button{
     background-color: black;
     text-decoration: none;
+    color: white;
 }
 .prof-link button:hover{
     background-color: var(--bg-yellow);
     color: black;
     box-shadow: 3px 5px black;
 }
-.button-form:visited{
+.btn:focus {
+    outline: none;
+    box-shadow: none;
+  }
+
+.button-contact:visited{
     background-color: var(--bg-yellow) !important;
     border: none;
+}
+
+    /* social icons */
+.fa-square-instagram{
+    color: black;
+}
+.fa-facebook-square{
+    color: black;
+}
+.fa-twitter-square{
+    color: black;
+}
+.fa-square-instagram:hover{
+    box-shadow: 2px 2px 2px rgb(246, 203, 78);
+}
+.fa-facebook-square:hover{
+    box-shadow: 2px 2px 2px rgb(246, 203, 78);
+}
+.fa-twitter-square:hover{
+    box-shadow: 2px 2px 2px rgb(246, 203, 78);
 }
 
 
@@ -261,7 +293,6 @@ div.jumbotron{
 }
 
 
-
 /* bottom stripe with logo */
 .black-logo{
     background-color: var(--bg-yellow);
@@ -270,7 +301,6 @@ div.jumbotron{
 .black-logo img{
     width: 60px;
     padding: 25px 0 15px 0;
-
 }
 
 
