@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">    
     
     <!-- custom CSS -->
-    <link rel="stylesheet" href="./css/style.css">
-    
+    <link rel="stylesheet" href="./css/index.css">
     <!-- custom fonts -->
-    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+    
 
     <link rel="icon" type="image/x-icon" href="/images/favicon.png">
     <title>Marzena Wilk - Designer Portfolio</title>
@@ -44,7 +44,7 @@
     <div class="jumbotron">
         <h1 class="display-4">Hi, this is Marzena 'Maggie'</h1>
         <p class="lead">I'm a creative designer & fron-end developer from London</p>
-        <a class="btn btn-primary btn-lg shadow mb-4 custom-button" href="#portfolio" role="button">Checkout my projects</a>
+        <a class="btn btn-primary btn-lg custom-button" href="#portfolio" role="button">Checkout my projects</a>
         <div>
             <img src="./images/astro2.png" alt="">
         </div>
@@ -64,7 +64,7 @@
                         With time I've built my passion for coding and I've begun studying web development. 
                         I want to focus on creating accessible and user-friendly digital experiences.
                     </p>
-                    <a class="btn btn-primary btn-lg shadow mb-5 custom-button button-about" href="#" role="button">Get in touch</a>
+                    <a class="btn btn-primary btn-lg custom-button button-about" href="#" role="button">Get in touch</a>
                 </div>
 
 
@@ -163,7 +163,7 @@
                 </div>
 
             </div>
-        <a class="btn btn-primary btn-lg custom-button shadow mb-5 button-port" href="#" role="button">Show more</a>
+        <a class="btn btn-primary btn-lg custom-button button-port" href="#" role="button">Show more</a>
     </div>
 
     <!-- Contact section -->
@@ -172,11 +172,41 @@
             <div class="contact col-lg-6 col-md-6 col-sm-12">
                 <h2 class="contact-heading">Drop me a line.</h2>
                 <p class="para-contact">I'm always happy to discuss a project. Send me a message or use a form.</p>
-                <div class="contact-links">
-                    <a class="contact-email" href="marzena@wilk.com" target="_blank">email</a>
-                    <a class="contact-email" href="https://github.com/Marzena-W" target="_blank">GitHub</a>
-                    <a class="contact-email" href="#" target="_blank">LinkedIn</a>
-            </div>
+                
+                <div class="container-fluid">
+                    <div class="row connect">
+                        <div class="prof-links col-lg-6 col-md-6 col-sm-12">
+                            <h6>Contact</h6>
+                            <a class="prof-link" href="marzena@wilk.com" target="_blank">
+                                <button type="button" class="btn btn-secondary btn-sm">email</button>
+                            </a>
+
+                            <a class="prof-link" href="https://github.com/Marzena-W" target="_blank">
+                                <button type="button" class="btn btn-secondary btn-sm">GitHub</button>
+                            </a>
+
+                            <a class="prof-link" href="http://google.com" target="_blank">
+                                <button type="button" class="btn btn-secondary btn-sm">LinkedIn</button>
+                            </a>
+                        </div>
+
+                        <div class="social-links col-lg-6 col-md-6 col-sm-12">
+                            <h6>Follow</h6>
+                            <a class="prof-link" href="http://google.com" target="_blank">
+                                <button type="button" class="btn btn-secondary btn-sm">Instagram</button>
+                            </a>
+
+                            <a class="prof-link" href="http://google.com" target="_blank">
+                                <button type="button" class="btn btn-secondary btn-sm">Twitter</button>
+                            </a>
+
+                            <a class="prof-link" href="http://google.com" target="_blank">
+                                <button type="button" class="btn btn-secondary btn-sm">Facebook</button>
+                            </a>
+                        </div>
+                </div>
+                </div>
+
             </div>
 
             <div class="form col-lg-6 col-md-6 col-sm-12 contact-form">
@@ -190,7 +220,7 @@
                     </div>
 
                     <div class="form-group">
-                        <textarea class="form-control form-control-sm" id="exampleFormControlTextarea1" type="text" placeholder="Project description" rows="3"></textarea>
+                        <textarea class="form-control form-control-sm" id="exampleFormControlTextarea1" type="text" placeholder="Message" rows="3"></textarea>
                     </div>
 
                     <button type="submit" class="btn btn-primary custom-button button-contact">Submit</button>
@@ -202,16 +232,16 @@
 
 
 
-
-
-    <!-- icons section -->
+    <!-- bottom stripe -->
     <div class="container-fluid social-sec" id="icons-sec">
         <img src="./images/mw-eye-logo-black.png" class="card-img-top" alt="logo">
-        <h5 class="icons-heading">Let's connect</h5>
     </div>
 
    <!-- copyright section -->
-   <div class="copyright"></div>
+   <div class="copyright">
+        <p>Copyright ©2022 All rights reserved • Website made by Marzena Wilk</p>
+    </div>
+
 
 </body>
 </html>
