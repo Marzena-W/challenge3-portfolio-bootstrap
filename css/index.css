@@ -181,6 +181,17 @@ p {
 }
 .prof-links{
     padding-left: 0;
+    margin-bottom: 15px;
+}
+.prof-links h6{
+    margin-bottom: 5px;
+}
+.social-links{
+    padding-left: 0;
+    margin-bottom: 50px;
+}
+.social-links h6{
+    margin-bottom: 5px;
 }
 
     /* Links in contact section */
