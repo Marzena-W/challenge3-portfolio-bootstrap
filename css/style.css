@@ -291,6 +291,9 @@ div.jumbotron{
     color: black;
     border: 1px solid white;
 }
+.form-control{
+    background-color: var(--bg-color);
+}
 
 
 /* bottom stripe with logo */
