@@ -1,4 +1,4 @@
-# challenge3-portfolio-bootstrap
+# Portfolio using Bootstrap
 
 ## Description 
 
